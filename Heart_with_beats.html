@@ -10,7 +10,7 @@
             height: 200px;
             width: 200px;
             background-color: red;
-            transform: rotate(0deg); /* Set rotation to 0 degrees */
+            transform: rotate(45deg); /* Set rotation to 0 degrees */
             margin: 200px;
             position: relative;
             animation: heart 1s infinite;
@@ -38,15 +38,15 @@
 
         @keyframes heart {
             0% {
-                transform: scale(1);
+                transform:rotate(45deg) scale(1);
             }
 
             50% {
-                transform: scale(1.1);
+                transform: rotate(45deg) scale(1.1);
             }
 
             100% {
-                transform: scale(1);
+                transform: rotate(45deg) scale(1);
             }
         }
     </style>
